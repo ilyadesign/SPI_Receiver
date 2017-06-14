@@ -1,24 +1,7 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 06/02/2017 08:32:26 PM
-// Design Name: 
-// Module Name: SPI_rsvr
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
+//Created by Higuoxing@outlook.com
+//Have fun :)
 
+`timescale 1ns / 1ps
 module SPI_rsvr(
     //General Usage
     input wire CLK,
@@ -53,7 +36,6 @@ module SPI_rsvr(
     reg enParalelLoad;
     
     initial begin
-        //pass
         current_state <= 1;
         clk_counter <= 0;
         DATA <= 0;
@@ -130,7 +112,7 @@ module SPI_rsvr(
     //                          ^                     |
     //                          |_____________________|
     //
-    //
+	
     always @ (*) begin  //posedge(clk_div)
         case (current_state)
             1: begin

@@ -1,24 +1,7 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 06/02/2017 08:33:06 PM
-// Design Name: 
-// Module Name: clk_divider
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
+//Created by Higuoxing@outlook.com
+//Have fun :)
 
+`timescale 1ns / 1ps
 
 module clk_divider(clk, rst, clk_out);
 
