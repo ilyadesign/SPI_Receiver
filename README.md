@@ -1,5 +1,5 @@
 # SPI_Receiver
 SPI_receiver demo in verilog
 
-The demo is a [SPI-MIC](http://store.digilentinc.com/pmod-mic3-mems-microphone-with-adjustable-gain/) Receiver. You could pick up the SPI_rsv.v as SPI receiver module in your own design. 
+This demo is a SPI_receiver, you could pick up the SPI_rsvr.v in your own project.
 Have fun :)
